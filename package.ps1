@@ -8,7 +8,7 @@ Param(
 # Clean up temporary hex files.
 Get-ChildItem *.hex -Exclude "ir_led_driver_production.hex" -Recurse | Remove-Item
 
-$outstem = 'IR-Board-Programmer-Bundle-20160408'
+$outstem = 'IR-Board-Programmer-Bundle-20160804'
 if ($SelfExtractor) {
   $outfile = "$outstem.exe"
 } else {
